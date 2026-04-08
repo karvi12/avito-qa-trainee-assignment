@@ -62,7 +62,6 @@ playwright install chromium
 ```
 4. Запустить тесты
 
-5.
 ```
 # Все тесты
 pytest -v
