@@ -57,7 +57,7 @@ source venv/bin/activate
 ```
 3. Установить все зависимости
 ```
-pip install -r requirements.txt
+pip install -r requierements.txt
 playwright install chromium
 ```
 4. Запустить тесты
