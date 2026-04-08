@@ -38,39 +38,45 @@
 ## Быстрый старт
 
 1. Клонировать репозиторий
+```
 git clone https://github.com/karvi12/avito-qa-trainee-assignment.git
 cd avito-qa-trainee-assignment
+```
 
 2. Создать и активировать виртуальное окружение
 
 Windows:
+```
 python -m venv venv
 venv\Scripts\activate
-
+```
 macOS / Linux:
+```
 python3 -m venv venv
 source venv/bin/activate
-
+```
 3. Установить все зависимости
-
+```
 pip install -r requirements.txt
 playwright install chromium
-
+```
 4. Запустить тесты
 
-5.  Все UI-тесты
+5.
+```
+# Все тесты
 pytest -v
 
-Только десктопные сценарии
+# Только десктопные сценарии
 pytest test_desktop.py -v
 
-Только мобильные сценарии
+# Только мобильные сценарии
 pytest test_mobile.py -v
-
+```
 Для наблюдения за выполнением браузер запускается в видимом режиме (headless=False).
 Чтобы запустить в фоне, измените в conftest.py параметр headless=True.
 
-Автор
+#Автор
 
 Кирилл Иванов
 Тестовое задание на стажировку QA (весенняя волна 2026)
