@@ -29,7 +29,7 @@
 ├── README.md
 ├── TESTCASES.md
 ├── BUGS.md
-├── requirements.txt
+├── requierements.txt
 ├── conftest.py
 ├── test_desktop.py
 └── test_mobile.py
